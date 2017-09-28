@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Config:etc/system_file.xsd">
+    <system>
+        <tab id="augustash" translate="label" sortOrder="10">
+           <label><![CDATA[<span class="aai-icon"></span><a href="https://www.augustash.com" target="_BLANK" title="August Ash, Inc.">August Ash Extensions</a>]]></label>
+        </tab>
+        <section id="augustash_core" translate="label" type="text" sortOrder="0" showInDefault="1" showInWebsite="1" showInStore="1">
+            <class>separator-top</class>
+            <label><![CDATA[Support]]></label>
+            <tab>augustash</tab>
+            <resource>Augustash_Core::config</resource>
+            <group id="info" translate="label" type="text" sortOrder="10" showInDefault="1" showInWebsite="1" showInStore="1">
+                <label><![CDATA[August Ash Support]]></label>
+                <field id="instructions" translate="label comment" type="note" sortOrder="0" showInDefault="1" showInWebsite="1" showInStore="1">
+                    <label><![CDATA[Contact Information]]></label>
+                    <comment><![CDATA[<style>code { display: margin-right: 1rem; color: #EC4431; font-weight bold; }</style><div class="aai-logo"><img src="https://www.augustash.com/sites/all/themes/ash/assets/branding/stacked/color/ash-stacked-color-250.png" alt="August Ash" /></div>
+                    <p>Contact our Client Services team at (952) 851-9400 or toll-free at (877) 734-4485.</p>
+                    <p>Visit our website: <a href="https://www.augustash.com/" title="www.augustash.com" target="_BLANK">www.augustash.com</a></p>
+                    <p><a href="https://augustash.zendesk.com/anonymous_requests/new" title="Sumbmit a support request" target="_BLANK">Submit a support request</a></p>]]></comment>
+                </field>
+            </group>
+        </section>
+    </system>
+</config>

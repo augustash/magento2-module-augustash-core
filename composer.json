@@ -1,0 +1,24 @@
+{
+    "name": "augustash/module-core",
+    "description": "Core module to offer common things (menus, ACL, system configurations, etc.) to other AAI modules",
+    "type": "magento2-module",
+    "license": [
+        "proprietary"
+    ],
+    "authors":[
+        {
+            "name":"Josh Johnson",
+            "email":"josh@augustash.com"
+        }
+    ],
+    "require": {
+    },
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "Augustash\\Core\\": ""
+        }
+    }
+}
