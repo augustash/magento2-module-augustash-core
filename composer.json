@@ -3,7 +3,7 @@
     "description": "Core module to offer common things (menus, ACL, system configurations, etc.) to other AAI modules",
     "type": "magento2-module",
     "license": [
-        "proprietary"
+        "OSL-3.0"
     ],
     "authors":[
         {
